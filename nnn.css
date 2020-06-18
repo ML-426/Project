@@ -84,7 +84,7 @@ h2 {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 7rem;
   color: #807c7d;
 }
 
@@ -126,7 +126,7 @@ img {
   margin-right: 2rem;
 }
 
-@media (max-width: 28.75em) {
+@media (max-width: 28.75em) {   /* 287.5px  */
   .nav {
     justify-content: center;
   }
@@ -172,7 +172,6 @@ img {
 
 /* about me section */
 
-
 .wrapper {
   display:flex;
   flex-flow: row wrap;
@@ -190,13 +189,13 @@ img {
 
 .img-col img{
     float:right;
-    height:400px;
+    height:350px;
     width: 300px;
-    border-radius: 50px;
+    border-radius: 40px;
     padding-right: 5px;
     text-align: right;
     margin-bottom: 15px;
-    margin-top: 70px;
+    margin-top: 90px;
 
 }
 
@@ -207,7 +206,7 @@ img {
  text-align: left;
  width:45%;
  padding:20px;
- margin-top: 150px;
+ margin-top: 120px;
  margin-left:30px;
  margin-right: 50px;
  font-style: italic;
@@ -224,6 +223,51 @@ img {
   color: red;
   text-align: center;
 }
+/* For ipad */
+@media only screen and (min-width: 768px){
+.text-col {
+ font-size: 1.8rem;
+ margin-top:150px;
+ padding-left:100px;
+ float:right;
+ text-align: center;
+
+}
+.img-col img{
+    float:left;
+    padding-right: 5px;
+    margin-top: -430px;
+    margin-left: 30px;
+}
+.wrapper h2{
+  margin-top: 150px;
+  }
+}
+/* For iphone */
+@media only screen and (min-width: 360px){
+.text-col {
+ font-size: 1.5rem;
+ margin-bottom: 30%;
+ text-align: left;
+
+ width: 70%;
+
+}
+.img-col img{
+    display:block;
+     text-align: center;
+    padding-right: 5px;
+    margin-top: -530px;
+    margin-left: 120px;
+    height: 150px;
+    width: 40%;
+}
+.wrapper h2{
+  margin-top: 80px;
+  font-size:2.7rem;
+  }
+}
+
 
 
 /* Projects section */
