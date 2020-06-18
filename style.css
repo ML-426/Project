@@ -120,13 +120,14 @@ header {
 }
 
 .logo > img {
-  width: 400%;
-  height: 600%;
+  width: 200%;
+  height: 65px;
   max-width: 300px;
   float:left;
   margin-left: -300px;
-  position: relative;
+  position:relative;
 }
+
 nav {
   font-weight: 400;
 }
