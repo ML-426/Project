@@ -225,7 +225,7 @@ img {
 }
 
 
-/* For ipad 
+/* For ipad  */
 @media only screen and (min-width: 768px){
 .text-col {
  font-size: 1.8rem;
@@ -246,8 +246,8 @@ img {
   }
 }
 
-*/
-/* For iphone 
+
+/* For iphone */
 @media only screen and (min-width: 360px){
 .text-col {
  font-size: 1.5rem;
@@ -271,7 +271,7 @@ img {
   font-size:2.7rem;
   }
 }
-*/
+
 
 /* Projects section */
 
